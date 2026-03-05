@@ -8,7 +8,7 @@
 - 🧩 兴趣方向：开源贡献，软件小工具开发
 - 💬 欢迎交流：各种奇思妙想的项目，也可以谈人生谈理想
 
-## 技术栈（可按需删改）
+## 技术栈
 - 语言：Python / JavaScript / Java / Dart / C++ / C / Kotlin /Matlab （哈！我会各种乱七八糟的东西）
 - 工具：Git / Docker / Linux / Android
 
