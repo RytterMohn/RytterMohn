@@ -1,0 +1,500 @@
+{
+  "username": "RytterMohn",
+  "display_name": "RytterMohn",
+  "tagline": {
+    "en": "AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security, and Android Reverse Engineering",
+    "zh": "AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防护与 Android 逆向分析"
+  },
+  "contact": {
+    "github": "https://github.com/RytterMohn",
+    "email": "ryttermohn@gmail.com",
+    "blog": "https://www.xuanworld.top"
+  },
+  "badges": [
+    {
+      "label": "Python",
+      "url": "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white"
+    },
+    {
+      "label": "Go",
+      "url": "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"
+    },
+    {
+      "label": "Kotlin",
+      "url": "https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white"
+    },
+    {
+      "label": "Java",
+      "url": "https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white"
+    },
+    {
+      "label": "C++",
+      "url": "https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white"
+    },
+    {
+      "label": "JavaScript",
+      "url": "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111"
+    },
+    {
+      "label": "Android",
+      "url": "https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=111"
+    },
+    {
+      "label": "Docker",
+      "url": "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"
+    },
+    {
+      "label": "AI Security",
+      "url": "https://img.shields.io/badge/AI%20Security-0F172A?logo=shield&logoColor=white"
+    },
+    {
+      "label": "OWASP WAF",
+      "url": "https://img.shields.io/badge/OWASP%20WAF-181717?logo=owasp&logoColor=white"
+    }
+  ],
+  "focus_repos": [
+    "corazawaf/coraza",
+    "NVIDIA/garak",
+    "microsoft/PyRIT"
+  ],
+  "projects": [
+    {
+      "repo": "EnvScope",
+      "area": {
+        "en": "Android Security",
+        "zh": "Android 安全"
+      },
+      "notes": {
+        "en": "Android runtime self-check APK with Kotlin + Native C++ cross-checks for Frida, Xposed/LSPosed, Riru, Zygisk/Magisk, and hook artifacts",
+        "zh": "Android 运行环境自检 APK，结合 Kotlin 与 Native C++ 交叉检测 Frida、Xposed/LSPosed、Riru、Zygisk/Magisk 等动态注入痕迹"
+      }
+    },
+    {
+      "repo": "UsbDetectionBypass",
+      "area": {
+        "en": "Android Security",
+        "zh": "Android 安全"
+      },
+      "notes": {
+        "en": "LSPosed/Xposed module that masks USB connection and USB debugging detection signals inside Android applications",
+        "zh": "用于隐藏 Android 应用内 USB 连接与 USB 调试检测信号的 LSPosed/Xposed 模块"
+      }
+    },
+    {
+      "repo": "EasyHook",
+      "area": {
+        "en": "Android Reverse",
+        "zh": "Android 逆向"
+      },
+      "notes": {
+        "en": "Windows desktop IDE for Android Frida scripts supporting device management, process Attach/Spawn injection, script editing, and live logs",
+        "zh": "Windows 桌面端 Android Frida 脚本 IDE，支持设备连接、进程 Attach/Spawn 注入、脚本管理与实时日志"
+      }
+    },
+    {
+      "repo": "APKAgents",
+      "area": {
+        "en": "AI Security",
+        "zh": "AI 安全"
+      },
+      "notes": {
+        "en": "Multi-agent automated APK security analysis, vulnerability scanning, and reporting system built on LangChain + CrewAI",
+        "zh": "基于 LangChain + CrewAI 架构的 APK 多 Agent 自动化安全分析、漏洞扫描与报告生成系统"
+      }
+    },
+    {
+      "repo": "Native-Code-Malware-Detection",
+      "area": {
+        "en": "AI Security",
+        "zh": "AI 安全"
+      },
+      "notes": {
+        "en": "RNN-based Android malware detector combining Java/Native runtime API call sequences with application permission features",
+        "zh": "基于 Java/Native 运行时 API 序列与权限特征的 RNN Android 恶意应用检测系统"
+      }
+    },
+    {
+      "repo": "LifeBuddy",
+      "area": {
+        "en": "AI Agents",
+        "zh": "AI Agent"
+      },
+      "notes": {
+        "en": "Bilingual Android AI assistant with app automation, persistent memory, learned skills, and MCP tool integration",
+        "zh": "支持应用自动化、长期记忆、技能学习与 MCP 工具调用的双语 Android AI 助手"
+      }
+    },
+    {
+      "repo": "chaoxingDownload",
+      "area": {
+        "en": "Automation",
+        "zh": "效率工具"
+      },
+      "notes": {
+        "en": "Batch courseware downloader script (PPT/PDF/video) published on GreasyFork with 10k+ downloads",
+        "zh": "超星学习通课件批量下载脚本（PPT/PDF/视频），已发布 GreasyFork，累计下载 1W+"
+      }
+    },
+    {
+      "repo": "XDU-Course-Sniper",
+      "area": {
+        "en": "Automation",
+        "zh": "效率工具"
+      },
+      "notes": {
+        "en": "Course enrollment automation utility for Xidian University",
+        "zh": "西安电子科技大学选课自动化工具"
+      }
+    }
+  ],
+  "contribution_categories": [
+    {
+      "id": "ai_security",
+      "title": {
+        "en": "AI Security & Red Teaming",
+        "zh": "AI 安全与红队评估"
+      },
+      "repos": [
+        "NVIDIA/garak",
+        "microsoft/PyRIT"
+      ]
+    },
+    {
+      "id": "web_security",
+      "title": {
+        "en": "Web Security & WAF",
+        "zh": "Web 安全与 WAF 防护"
+      },
+      "repos": [
+        "corazawaf/coraza"
+      ]
+    },
+    {
+      "id": "infra_nlp",
+      "title": {
+        "en": "Search, NLP & Infrastructure",
+        "zh": "搜索、NLP 与基础设施"
+      },
+      "repos": [
+        "elastic/elasticsearch",
+        "apache/opennlp",
+        "NVIDIA/ccluster"
+      ]
+    }
+  ],
+  "repo_display_names": {
+    "corazawaf/coraza": "Coraza WAF",
+    "NVIDIA/garak": "NVIDIA Garak",
+    "microsoft/PyRIT": "Microsoft PyRIT",
+    "elastic/elasticsearch": "Elasticsearch",
+    "apache/opennlp": "Apache OpenNLP",
+    "NVIDIA/ccluster": "NVIDIA ccluster"
+  },
+  "pr_notes": {
+    "elastic/elasticsearch#166303": {
+      "en": "Add mutation coverage tests for field mapping responses",
+      "zh": "为字段映射响应（field mapping responses）补充变异测试覆盖"
+    },
+    "apache/opennlp#1591": {
+      "en": "Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled",
+      "zh": "在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定"
+    },
+    "apache/opennlp#1592": {
+      "en": "Backport to 2.x: replace category constants with CR and LF in tokenizers",
+      "zh": "向 2.x 分支回移：在分词器中用 CR/LF 替换分类常量"
+    },
+    "NVIDIA/garak#2485": {
+      "en": "Expand `WebSocketGenerator` placeholders in a single pass and support `$KEY` expansion in headers",
+      "zh": "将 `WebSocketGenerator` 占位符改为单次扫描替换以防凭证泄漏，并支持连接头 `$KEY` 展开"
+    },
+    "microsoft/PyRIT#4469": {
+      "en": "Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text",
+      "zh": "修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷"
+    },
+    "corazawaf/coraza#1877": {
+      "en": "Implement `Close()` on `httpsWriter` to prevent nil-pointer dereference panic and release idle connections",
+      "zh": "为 `httpsWriter` 显式实现 `Close()` 方法，修复未初始化 `io.Closer` 导致的空指针 panic 并释放空闲连接"
+    },
+    "corazawaf/coraza#1875": {
+      "en": "Append unique MIME types across multiple `SecResponseBodyMimeType` directives using whitespace tokenization",
+      "zh": "修复 `SecResponseBodyMimeType` 覆盖既有 MIME 类型及空白切分缺陷，改为按空白分词并去重追加"
+    },
+    "corazawaf/coraza#1872": {
+      "en": "Enforce Phase 3 response header interruptions on implicit HTTP 200 OK responses in `rwInterceptor`",
+      "zh": "修复 HTTP 拦截器在隐式 200 OK 响应路径下未正确执行 Phase 3 拦截规则的问题"
+    },
+    "corazawaf/coraza#1870": {
+      "en": "Treat `host:port` syslog audit log targets as TCP instead of misparsing the hostname as a URL scheme",
+      "zh": "修复 `SecAuditLog` 配置 `host:port` 时把主机名误解析为 URL scheme 导致 syslog 初始化失败的问题"
+    },
+    "corazawaf/coraza#1868": {
+      "en": "Isolate mutable rule state when adding the same rule across multiple RuleGroups",
+      "zh": "修复同一规则添加到多个 RuleGroup 时共享可变状态引发的隔离问题"
+    },
+    "corazawaf/coraza#1867": {
+      "en": "Emit a warning when a SecRule omits an explicit phase in SecLang",
+      "zh": "在 SecLang 解析省略 phase 的规则时输出告警提示"
+    },
+    "NVIDIA/ccluster#304": {
+      "en": "Report a clear error when inspecting a control plane without the ccluster API",
+      "zh": "修复检查未启用 ccluster API 的控制平面时的错误上报处理"
+    }
+  },
+  "snapshot": {
+    "updated_at": "2026-11-21T07:50:19Z",
+    "user_repos": {
+      "chaoxingDownload": {
+        "stars": 63,
+        "language": "JavaScript",
+        "description": "超星学习通资源下载脚本（PPT/PDF/视频）：一键选择/批量下载 + 进度提示 + D 键全下 PDF；已发布 GreasyFork，累计下载 1W+。",
+        "url": "https://github.com/RytterMohn/chaoxingDownload"
+      },
+      "EnvScope": {
+        "stars": 44,
+        "language": "Kotlin",
+        "description": "EnvScope 是一个用于 Android 运行环境自检的 APK，重点探测 Frida、Xposed、LSPosed、EdXposed、Substrate、Riru、Zygisk/Magisk 等动态插桩、Hook 或模块化注入痕迹。  项目同时实现 Kotlin 层与 Native C++ 层检测。Kotlin 层负责包名、类加载、调用栈、环境变量、系统属性、端口、进程、挂载表等检查；Native 层负责已加载 so、导出符号、`/proc`、线程名、socket 和 `TracerPid` 的交叉检查。",
+        "url": "https://github.com/RytterMohn/EnvScope"
+      },
+      "UsbDetectionBypass": {
+        "stars": 43,
+        "language": "Kotlin",
+        "description": "隐藏 Android 应用内 USB 连接与 USB 调试检测信号的 LSPosed/Xposed 模块。",
+        "url": "https://github.com/RytterMohn/UsbDetectionBypass"
+      },
+      "EasyHook": {
+        "stars": 40,
+        "language": "JavaScript",
+        "description": "EasyHook 是一个运行在 Windows 桌面端的 Android Frida 脚本 IDE，支持脚本管理、代码编辑、Android 设备   连接、进程选择、Attach/Spawn 注入、运行控制和日志输出，让 Frida 脚本无需手写 Python 启动器即可快速执行。",
+        "url": "https://github.com/RytterMohn/EasyHook"
+      },
+      "XDU-Course-Sniper": {
+        "stars": 11,
+        "language": "Python",
+        "description": "西安电子科技大学抢课代码",
+        "url": "https://github.com/RytterMohn/XDU-Course-Sniper"
+      },
+      "APKAgents": {
+        "stars": 5,
+        "language": "Python",
+        "description": "APK多Agent自动分析系统，基于LangChain + CrewAI架构实现自动化APK安全分析、漏洞扫描和报告生成。",
+        "url": "https://github.com/RytterMohn/APKAgents"
+      },
+      "FlutterGame": {
+        "stars": 1,
+        "language": "C++",
+        "description": "一个非常抽象的小游戏，来自于B站和抖音经常看到的广告，心血来潮把它做了出来。",
+        "url": "https://github.com/RytterMohn/FlutterGame"
+      },
+      "Native-Code-Malware-Detection": {
+        "stars": 1,
+        "language": "Python",
+        "description": "通过对 Android应用程序在 Java 层与 Native 层的行为进行监测，使用机器学习技术，设计了一套Android 恶意应用检测系统，该系统能够提取 Android 应用程序在运行过程中，Native 层和 Java 层调用产生的 API 序列，以及 Android 应用中申请的 Permission序列，通过 RNN 技术，实现对应用程序恶意性的识别。",
+        "url": "https://github.com/RytterMohn/Native-Code-Malware-Detection"
+      },
+      "RytterMohn.github.io": {
+        "stars": 1,
+        "language": "HTML",
+        "description": "For my blog",
+        "url": "https://github.com/RytterMohn/RytterMohn.github.io"
+      },
+      "XDU-Course-Pass": {
+        "stars": 1,
+        "language": "Python",
+        "description": "Python 自动化：雨课堂 WebSocket 扫码登录 + 课程解析 + heartbeat 上报，自动推进视频学习进度。",
+        "url": "https://github.com/RytterMohn/XDU-Course-Pass"
+      },
+      "XDU-healthcard": {
+        "stars": 1,
+        "language": "Python",
+        "description": "西安电子科技大学健康卡自动填写上传（疫情时代的代码）",
+        "url": "https://github.com/RytterMohn/XDU-healthcard"
+      },
+      "img": {
+        "stars": 0,
+        "language": "",
+        "description": "",
+        "url": "https://github.com/RytterMohn/img"
+      },
+      "LifeBuddy": {
+        "stars": 0,
+        "language": "Kotlin",
+        "description": "A bilingual Android AI assistant with app automation, memory, learned skills and MCP tools.",
+        "url": "https://github.com/RytterMohn/LifeBuddy"
+      },
+      "Netdisk4WebSecurity": {
+        "stars": 0,
+        "language": "CSS",
+        "description": "web安全大作业源代码",
+        "url": "https://github.com/RytterMohn/Netdisk4WebSecurity"
+      },
+      "notes": {
+        "stars": 0,
+        "language": "",
+        "description": "",
+        "url": "https://github.com/RytterMohn/notes"
+      },
+      "RytterMohn": {
+        "stars": 0,
+        "language": "",
+        "description": "",
+        "url": "https://github.com/RytterMohn/RytterMohn"
+      }
+    },
+    "upstream_repos": {
+      "NVIDIA/ccluster": {
+        "stars": 12,
+        "url": "https://github.com/NVIDIA/ccluster",
+        "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
+      },
+      "NVIDIA/garak": {
+        "stars": 10121,
+        "url": "https://github.com/NVIDIA/garak",
+        "description": "the LLM vulnerability scanner"
+      },
+      "apache/opennlp": {
+        "stars": 1605,
+        "url": "https://github.com/apache/opennlp",
+        "description": "Apache OpenNLP"
+      },
+      "corazawaf/coraza": {
+        "stars": 4043,
+        "url": "https://github.com/corazawaf/coraza",
+        "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
+      },
+      "elastic/elasticsearch": {
+        "stars": 78686,
+        "url": "https://github.com/elastic/elasticsearch",
+        "description": "Free and Open Source, Distributed, RESTful Search Engine"
+      },
+      "microsoft/PyRIT": {
+        "stars": 5001,
+        "url": "https://github.com/microsoft/PyRIT",
+        "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
+      }
+    },
+    "merged_prs": [
+      {
+        "repo": "elastic/elasticsearch",
+        "number": 166303,
+        "title": "Add mutation coverage for field mapping responses",
+        "url": "https://github.com/elastic/elasticsearch/pull/166303",
+        "state": "closed",
+        "merged_at": "2026-11-20T22:08:42Z",
+        "created_at": "2026-11-17T12:12:13Z",
+        "updated_at": "2026-11-20T22:08:42Z"
+      },
+      {
+        "repo": "apache/opennlp",
+        "number": 1592,
+        "title": "[2.x] GH-1582: Replace category constants with CR and LF in tokenizers",
+        "url": "https://github.com/apache/opennlp/pull/1592",
+        "state": "closed",
+        "merged_at": "2026-11-20T18:44:35Z",
+        "created_at": "2026-11-18T04:42:03Z",
+        "updated_at": "2026-11-20T18:44:39Z"
+      },
+      {
+        "repo": "apache/opennlp",
+        "number": 1591,
+        "title": "GH-1582: Use UnicodeWhitespace line breaks in tokenizers with keepNewLines",
+        "url": "https://github.com/apache/opennlp/pull/1591",
+        "state": "closed",
+        "merged_at": "2026-11-20T18:41:03Z",
+        "created_at": "2026-11-18T04:30:53Z",
+        "updated_at": "2026-11-20T18:41:09Z"
+      }
+    ],
+    "open_prs": [
+      {
+        "repo": "NVIDIA/garak",
+        "number": 2485,
+        "title": "fix(generators): expand WebSocketGenerator placeholders in a single pass and in headers",
+        "url": "https://github.com/NVIDIA/garak/pull/2485",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-20T07:41:18Z",
+        "updated_at": "2026-11-20T07:41:18Z"
+      },
+      {
+        "repo": "microsoft/PyRIT",
+        "number": 4469,
+        "title": "FIX: handle unmatched and nested document tags in PromptShieldTarget parser",
+        "url": "https://github.com/microsoft/PyRIT/pull/4469",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-20T09:23:30Z",
+        "updated_at": "2026-11-20T09:30:53Z"
+      },
+      {
+        "repo": "corazawaf/coraza",
+        "number": 1877,
+        "title": "fix(auditlog): implement Close on httpsWriter to prevent nil-pointer panic",
+        "url": "https://github.com/corazawaf/coraza/pull/1877",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-21T04:50:56Z",
+        "updated_at": "2026-11-21T04:54:19Z"
+      },
+      {
+        "repo": "corazawaf/coraza",
+        "number": 1875,
+        "title": "fix(seclang): append MIME types in SecResponseBodyMimeType",
+        "url": "https://github.com/corazawaf/coraza/pull/1875",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-20T03:48:40Z",
+        "updated_at": "2026-11-20T03:51:55Z"
+      },
+      {
+        "repo": "corazawaf/coraza",
+        "number": 1872,
+        "title": "fix(http): enforce phase 3 interruptions on implicit 200 responses",
+        "url": "https://github.com/corazawaf/coraza/pull/1872",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-19T16:45:18Z",
+        "updated_at": "2026-11-19T17:02:55Z"
+      },
+      {
+        "repo": "corazawaf/coraza",
+        "number": 1870,
+        "title": "fix(auditlog): treat host:port syslog targets as TCP",
+        "url": "https://github.com/corazawaf/coraza/pull/1870",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-19T12:14:24Z",
+        "updated_at": "2026-11-19T14:03:20Z"
+      },
+      {
+        "repo": "corazawaf/coraza",
+        "number": 1868,
+        "title": "fix(corazawaf): isolate mutable rule state in RuleGroup.Add",
+        "url": "https://github.com/corazawaf/coraza/pull/1868",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-18T15:49:10Z",
+        "updated_at": "2026-11-19T11:37:07Z"
+      },
+      {
+        "repo": "corazawaf/coraza",
+        "number": 1867,
+        "title": "fix(seclang): warn when rule phase is omitted",
+        "url": "https://github.com/corazawaf/coraza/pull/1867",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-18T12:30:19Z",
+        "updated_at": "2026-11-18T13:37:14Z"
+      },
+      {
+        "repo": "NVIDIA/ccluster",
+        "number": 304,
+        "title": "fix(cli): report a control plane without the ccluster API",
+        "url": "https://github.com/NVIDIA/ccluster/pull/304",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-17T16:38:26Z",
+        "updated_at": "2026-11-17T16:38:27Z"
+      }
+    ]
+  }
+}
