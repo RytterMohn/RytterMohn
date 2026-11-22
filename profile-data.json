@@ -241,7 +241,7 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-21T07:52:03Z",
+    "updated_at": "2026-11-22T07:16:04Z",
     "user_repos": {
       "chaoxingDownload": {
         "stars": 63,
@@ -347,7 +347,7 @@
         "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
       },
       "NVIDIA/garak": {
-        "stars": 10121,
+        "stars": 10126,
         "url": "https://github.com/NVIDIA/garak",
         "description": "the LLM vulnerability scanner"
       },
@@ -357,17 +357,17 @@
         "description": "Apache OpenNLP"
       },
       "corazawaf/coraza": {
-        "stars": 4043,
+        "stars": 4044,
         "url": "https://github.com/corazawaf/coraza",
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78686,
+        "stars": 78727,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5001,
+        "stars": 5018,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
@@ -405,6 +405,16 @@
       }
     ],
     "open_prs": [
+      {
+        "repo": "NVIDIA/garak",
+        "number": 2500,
+        "title": "fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci",
+        "url": "https://github.com/NVIDIA/garak/pull/2500",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-21T14:41:33Z",
+        "updated_at": "2026-11-21T14:41:33Z"
+      },
       {
         "repo": "NVIDIA/garak",
         "number": 2485,

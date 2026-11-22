@@ -8,7 +8,7 @@
 
 AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security, and Android Reverse Engineering
 
-- **3 merged upstream PRs** (Elasticsearch, Apache OpenNLP) and **9 active PRs** under review.
+- **3 merged upstream PRs** (Elasticsearch, Apache OpenNLP) and **10 active PRs** under review.
 - Long-term open-source focus: **Coraza WAF, NVIDIA Garak, Microsoft PyRIT**.
 - **15 public repositories**, led by EnvScope, UsbDetectionBypass, EasyHook, APKAgents, Native-Code-Malware-Detection.
 
@@ -86,12 +86,13 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled |
 
 <details open>
-<summary><strong>Active / Under Review PRs (9) — auto-promoted once merged</strong></summary>
+<summary><strong>Active / Under Review PRs (10) — auto-promoted once merged</strong></summary>
 
 #### AI Security & Red Teaming
 
 | Project | PR | Status | Summary |
 | :---: | :---: | :---: | :--- |
+| [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `Open` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
 | [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `Open` | Expand `WebSocketGenerator` placeholders in a single pass and support `$KEY` expansion in headers |
 | [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `Open` | Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text |
 
@@ -124,7 +125,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防护与 Android 逆向分析
 
-- 已合并 **3 个上游开源 PR**（Elasticsearch, Apache OpenNLP），另有 **9 个 PR** 审核中。
+- 已合并 **3 个上游开源 PR**（Elasticsearch, Apache OpenNLP），另有 **10 个 PR** 审核中。
 - 长期深耕开源方向：**Coraza WAF、NVIDIA Garak、Microsoft PyRIT**。
 - 共 **15 个公开自研仓库**，代表项目：EnvScope、UsbDetectionBypass、EasyHook、APKAgents、Native-Code-Malware-Detection。
 
@@ -202,12 +203,13 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | 在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定 |
 
 <details open>
-<summary><strong>审核中 / 进行中的 PR（9 个，合并后自动升入主表）</strong></summary>
+<summary><strong>审核中 / 进行中的 PR（10 个，合并后自动升入主表）</strong></summary>
 
 #### AI 安全与红队评估
 
 | 项目 | PR | 状态 | 修复内容 |
 | :---: | :---: | :---: | :--- |
+| [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `审核中` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
 | [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `审核中` | 将 `WebSocketGenerator` 占位符改为单次扫描替换以防凭证泄漏，并支持连接头 `$KEY` 展开 |
 | [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `审核中` | 修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷 |
 
@@ -236,4 +238,4 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 - Email: `ryttermohn@gmail.com`
 - Blog: [https://www.xuanworld.top](https://www.xuanworld.top)
 
-<sub>Last synced automatically via GitHub Actions: `2026-11-21T07:52:03Z`</sub>
+<sub>Last synced automatically via GitHub Actions: `2026-11-22T07:16:04Z`</sub>
