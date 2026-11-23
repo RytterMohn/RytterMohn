@@ -63,7 +63,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
     <tr>
       <td align="center">Automation</td>
       <td><a href="https://github.com/RytterMohn/chaoxingDownload">chaoxingDownload</a></td>
-      <td align="center">63★</td>
+      <td align="center">64★</td>
       <td>Batch courseware downloader script (PPT/PDF/video) published on GreasyFork with 10k+ downloads</td>
     </tr>
     <tr>
@@ -81,7 +81,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 | Project | PR | Summary |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
+| [Elasticsearch (78.8k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | Backport to 2.x: replace category constants with CR and LF in tokenizers |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled |
 
@@ -180,7 +180,7 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
     <tr>
       <td align="center">效率工具</td>
       <td><a href="https://github.com/RytterMohn/chaoxingDownload">chaoxingDownload</a></td>
-      <td align="center">63★</td>
+      <td align="center">64★</td>
       <td>超星学习通课件批量下载脚本（PPT/PDF/视频），已发布 GreasyFork，累计下载 1W+</td>
     </tr>
     <tr>
@@ -198,7 +198,7 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
+| [Elasticsearch (78.8k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | 向 2.x 分支回移：在分词器中用 CR/LF 替换分类常量 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | 在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定 |
 
@@ -238,4 +238,4 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 - Email: `ryttermohn@gmail.com`
 - Blog: [https://www.xuanworld.top](https://www.xuanworld.top)
 
-<sub>Last synced automatically via GitHub Actions: `2026-11-22T07:16:04Z`</sub>
+<sub>Last synced automatically via GitHub Actions: `2026-11-23T07:59:21Z`</sub>

@@ -241,10 +241,10 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-22T07:16:04Z",
+    "updated_at": "2026-11-23T07:59:21Z",
     "user_repos": {
       "chaoxingDownload": {
-        "stars": 63,
+        "stars": 64,
         "language": "JavaScript",
         "description": "超星学习通资源下载脚本（PPT/PDF/视频）：一键选择/批量下载 + 进度提示 + D 键全下 PDF；已发布 GreasyFork，累计下载 1W+。",
         "url": "https://github.com/RytterMohn/chaoxingDownload"
@@ -347,7 +347,7 @@
         "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
       },
       "NVIDIA/garak": {
-        "stars": 10126,
+        "stars": 10138,
         "url": "https://github.com/NVIDIA/garak",
         "description": "the LLM vulnerability scanner"
       },
@@ -357,17 +357,17 @@
         "description": "Apache OpenNLP"
       },
       "corazawaf/coraza": {
-        "stars": 4044,
+        "stars": 4048,
         "url": "https://github.com/corazawaf/coraza",
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78727,
+        "stars": 78797,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5018,
+        "stars": 5030,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
