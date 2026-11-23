@@ -241,7 +241,7 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-23T07:59:21Z",
+    "updated_at": "2026-11-23T10:31:41Z",
     "user_repos": {
       "chaoxingDownload": {
         "stars": 64,
@@ -362,12 +362,12 @@
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78797,
+        "stars": 78800,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5030,
+        "stars": 5031,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
