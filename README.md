@@ -86,7 +86,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled |
 
 <details open>
-<summary><strong>Active / Under Review PRs (10) — auto-promoted once merged</strong></summary>
+<summary><strong>Active / Under Review PRs (10)</strong></summary>
 
 #### AI Security & Red Teaming
 
@@ -203,7 +203,7 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | 在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定 |
 
 <details open>
-<summary><strong>审核中 / 进行中的 PR（10 个，合并后自动升入主表）</strong></summary>
+<summary><strong>审核中 / 进行中的 PR（10 个）</strong></summary>
 
 #### AI 安全与红队评估
 

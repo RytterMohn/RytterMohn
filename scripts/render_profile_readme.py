@@ -199,7 +199,7 @@ def _render_section(profile: dict[str, Any], lang: str) -> list[str]:
         if open_prs:
             lines.append("<details open>")
             lines.append(
-                f"<summary><strong>Active / Under Review PRs ({len(open_prs)}) — auto-promoted once merged</strong></summary>"
+                f"<summary><strong>Active / Under Review PRs ({len(open_prs)})</strong></summary>"
             )
             lines.append("")
             for title_map, group_prs in _categorize_prs(open_prs, profile):
@@ -245,7 +245,7 @@ def _render_section(profile: dict[str, Any], lang: str) -> list[str]:
         if open_prs:
             lines.append("<details open>")
             lines.append(
-                f"<summary><strong>审核中 / 进行中的 PR（{len(open_prs)} 个，合并后自动升入主表）</strong></summary>"
+                f"<summary><strong>审核中 / 进行中的 PR（{len(open_prs)} 个）</strong></summary>"
             )
             lines.append("")
             for title_map, group_prs in _categorize_prs(open_prs, profile):
