@@ -241,7 +241,7 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-23T10:31:41Z",
+    "updated_at": "2026-11-24T10:14:52Z",
     "user_repos": {
       "chaoxingDownload": {
         "stars": 64,
@@ -347,27 +347,27 @@
         "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
       },
       "NVIDIA/garak": {
-        "stars": 10138,
+        "stars": 10157,
         "url": "https://github.com/NVIDIA/garak",
         "description": "the LLM vulnerability scanner"
       },
       "apache/opennlp": {
-        "stars": 1605,
+        "stars": 1606,
         "url": "https://github.com/apache/opennlp",
         "description": "Apache OpenNLP"
       },
       "corazawaf/coraza": {
-        "stars": 4048,
+        "stars": 4051,
         "url": "https://github.com/corazawaf/coraza",
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78800,
+        "stars": 78719,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5031,
+        "stars": 5045,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
@@ -413,7 +413,7 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-21T14:41:33Z",
-        "updated_at": "2026-11-21T14:41:33Z"
+        "updated_at": "2026-11-23T17:47:01Z"
       },
       {
         "repo": "NVIDIA/garak",
@@ -424,6 +424,16 @@
         "merged_at": null,
         "created_at": "2026-11-20T07:41:18Z",
         "updated_at": "2026-11-20T07:41:18Z"
+      },
+      {
+        "repo": "microsoft/PyRIT",
+        "number": 4575,
+        "title": "FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer",
+        "url": "https://github.com/microsoft/PyRIT/pull/4575",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-23T10:54:03Z",
+        "updated_at": "2026-11-23T10:56:39Z"
       },
       {
         "repo": "microsoft/PyRIT",
@@ -503,7 +513,7 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-17T16:38:26Z",
-        "updated_at": "2026-11-17T16:38:27Z"
+        "updated_at": "2026-11-24T05:58:05Z"
       }
     ]
   }

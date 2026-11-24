@@ -8,7 +8,7 @@
 
 AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security, and Android Reverse Engineering
 
-- **3 merged upstream PRs** (Elasticsearch, Apache OpenNLP) and **10 active PRs** under review.
+- **3 merged upstream PRs** (Elasticsearch, Apache OpenNLP) and **11 active PRs** under review.
 - Long-term open-source focus: **Coraza WAF, NVIDIA Garak, Microsoft PyRIT**.
 - **15 public repositories**, led by EnvScope, UsbDetectionBypass, EasyHook, APKAgents, Native-Code-Malware-Detection.
 
@@ -81,31 +81,32 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 | Project | PR | Summary |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.8k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
+| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | Backport to 2.x: replace category constants with CR and LF in tokenizers |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled |
 
 <details open>
-<summary><strong>Active / Under Review PRs (10)</strong></summary>
+<summary><strong>Active / Under Review PRs (11)</strong></summary>
 
 #### AI Security & Red Teaming
 
 | Project | PR | Status | Summary |
 | :---: | :---: | :---: | :--- |
-| [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `Open` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
-| [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `Open` | Expand `WebSocketGenerator` placeholders in a single pass and support `$KEY` expansion in headers |
+| [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `Open` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
+| [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `Open` | Expand `WebSocketGenerator` placeholders in a single pass and support `$KEY` expansion in headers |
+| [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `Open` | FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer |
 | [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `Open` | Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text |
 
 #### Web Security & WAF
 
 | Project | PR | Status | Summary |
 | :---: | :---: | :---: | :--- |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1877](https://github.com/corazawaf/coraza/pull/1877) | `Open` | Implement `Close()` on `httpsWriter` to prevent nil-pointer dereference panic and release idle connections |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1875](https://github.com/corazawaf/coraza/pull/1875) | `Open` | Append unique MIME types across multiple `SecResponseBodyMimeType` directives using whitespace tokenization |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1872](https://github.com/corazawaf/coraza/pull/1872) | `Open` | Enforce Phase 3 response header interruptions on implicit HTTP 200 OK responses in `rwInterceptor` |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1870](https://github.com/corazawaf/coraza/pull/1870) | `Open` | Treat `host:port` syslog audit log targets as TCP instead of misparsing the hostname as a URL scheme |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1868](https://github.com/corazawaf/coraza/pull/1868) | `Open` | Isolate mutable rule state when adding the same rule across multiple RuleGroups |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1867](https://github.com/corazawaf/coraza/pull/1867) | `Open` | Emit a warning when a SecRule omits an explicit phase in SecLang |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1877](https://github.com/corazawaf/coraza/pull/1877) | `Open` | Implement `Close()` on `httpsWriter` to prevent nil-pointer dereference panic and release idle connections |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1875](https://github.com/corazawaf/coraza/pull/1875) | `Open` | Append unique MIME types across multiple `SecResponseBodyMimeType` directives using whitespace tokenization |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1872](https://github.com/corazawaf/coraza/pull/1872) | `Open` | Enforce Phase 3 response header interruptions on implicit HTTP 200 OK responses in `rwInterceptor` |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1870](https://github.com/corazawaf/coraza/pull/1870) | `Open` | Treat `host:port` syslog audit log targets as TCP instead of misparsing the hostname as a URL scheme |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1868](https://github.com/corazawaf/coraza/pull/1868) | `Open` | Isolate mutable rule state when adding the same rule across multiple RuleGroups |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1867](https://github.com/corazawaf/coraza/pull/1867) | `Open` | Emit a warning when a SecRule omits an explicit phase in SecLang |
 
 #### Search, NLP & Infrastructure
 
@@ -125,7 +126,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防护与 Android 逆向分析
 
-- 已合并 **3 个上游开源 PR**（Elasticsearch, Apache OpenNLP），另有 **10 个 PR** 审核中。
+- 已合并 **3 个上游开源 PR**（Elasticsearch, Apache OpenNLP），另有 **11 个 PR** 审核中。
 - 长期深耕开源方向：**Coraza WAF、NVIDIA Garak、Microsoft PyRIT**。
 - 共 **15 个公开自研仓库**，代表项目：EnvScope、UsbDetectionBypass、EasyHook、APKAgents、Native-Code-Malware-Detection。
 
@@ -198,31 +199,32 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.8k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
+| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | 向 2.x 分支回移：在分词器中用 CR/LF 替换分类常量 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | 在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定 |
 
 <details open>
-<summary><strong>审核中 / 进行中的 PR（10 个）</strong></summary>
+<summary><strong>审核中 / 进行中的 PR（11 个）</strong></summary>
 
 #### AI 安全与红队评估
 
 | 项目 | PR | 状态 | 修复内容 |
 | :---: | :---: | :---: | :--- |
-| [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `审核中` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
-| [NVIDIA Garak (10.1k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `审核中` | 将 `WebSocketGenerator` 占位符改为单次扫描替换以防凭证泄漏，并支持连接头 `$KEY` 展开 |
+| [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `审核中` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
+| [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `审核中` | 将 `WebSocketGenerator` 占位符改为单次扫描替换以防凭证泄漏，并支持连接头 `$KEY` 展开 |
+| [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `审核中` | FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer |
 | [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `审核中` | 修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷 |
 
 #### Web 安全与 WAF 防护
 
 | 项目 | PR | 状态 | 修复内容 |
 | :---: | :---: | :---: | :--- |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1877](https://github.com/corazawaf/coraza/pull/1877) | `审核中` | 为 `httpsWriter` 显式实现 `Close()` 方法，修复未初始化 `io.Closer` 导致的空指针 panic 并释放空闲连接 |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1875](https://github.com/corazawaf/coraza/pull/1875) | `审核中` | 修复 `SecResponseBodyMimeType` 覆盖既有 MIME 类型及空白切分缺陷，改为按空白分词并去重追加 |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1872](https://github.com/corazawaf/coraza/pull/1872) | `审核中` | 修复 HTTP 拦截器在隐式 200 OK 响应路径下未正确执行 Phase 3 拦截规则的问题 |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1870](https://github.com/corazawaf/coraza/pull/1870) | `审核中` | 修复 `SecAuditLog` 配置 `host:port` 时把主机名误解析为 URL scheme 导致 syslog 初始化失败的问题 |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1868](https://github.com/corazawaf/coraza/pull/1868) | `审核中` | 修复同一规则添加到多个 RuleGroup 时共享可变状态引发的隔离问题 |
-| [Coraza WAF (4.0k★)](https://github.com/corazawaf/coraza) | [#1867](https://github.com/corazawaf/coraza/pull/1867) | `审核中` | 在 SecLang 解析省略 phase 的规则时输出告警提示 |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1877](https://github.com/corazawaf/coraza/pull/1877) | `审核中` | 为 `httpsWriter` 显式实现 `Close()` 方法，修复未初始化 `io.Closer` 导致的空指针 panic 并释放空闲连接 |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1875](https://github.com/corazawaf/coraza/pull/1875) | `审核中` | 修复 `SecResponseBodyMimeType` 覆盖既有 MIME 类型及空白切分缺陷，改为按空白分词并去重追加 |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1872](https://github.com/corazawaf/coraza/pull/1872) | `审核中` | 修复 HTTP 拦截器在隐式 200 OK 响应路径下未正确执行 Phase 3 拦截规则的问题 |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1870](https://github.com/corazawaf/coraza/pull/1870) | `审核中` | 修复 `SecAuditLog` 配置 `host:port` 时把主机名误解析为 URL scheme 导致 syslog 初始化失败的问题 |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1868](https://github.com/corazawaf/coraza/pull/1868) | `审核中` | 修复同一规则添加到多个 RuleGroup 时共享可变状态引发的隔离问题 |
+| [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1867](https://github.com/corazawaf/coraza/pull/1867) | `审核中` | 在 SecLang 解析省略 phase 的规则时输出告警提示 |
 
 #### 搜索、NLP 与基础设施
 
@@ -238,4 +240,4 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 - Email: `ryttermohn@gmail.com`
 - Blog: [https://www.xuanworld.top](https://www.xuanworld.top)
 
-<sub>Last synced automatically via GitHub Actions: `2026-11-23T10:31:41Z`</sub>
+<sub>Last synced automatically via GitHub Actions: `2026-11-24T10:14:52Z`</sub>
