@@ -157,7 +157,6 @@ def _render_section(profile: dict[str, Any], lang: str) -> list[str]:
     display_name = profile["display_name"]
 
     merged_repo_names = list(dict.fromkeys(_repo_label(pr["repo"], profile) for pr in merged_prs))
-    focus_repo_names = [_repo_label(r, profile) for r in profile.get("focus_repos", [])]
 
     featured_names = [p["repo"] for p in profile.get("projects", [])[:5]]
     public_count = len([r for r in user_repos if r.lower() != profile["username"].lower()])
@@ -177,9 +176,6 @@ def _render_section(profile: dict[str, Any], lang: str) -> list[str]:
                 f"- **{len(merged_prs)} merged upstream PRs** ({', '.join(merged_repo_names)}) "
                 f"and **{len(open_prs)} active PRs** under review."
             )
-        lines.append(
-            f"- Long-term open-source focus: **{', '.join(focus_repo_names)}**."
-        )
         lines.append(
             f"- **{public_count} public repositories**, led by {', '.join(featured_names)}."
         )
@@ -223,9 +219,6 @@ def _render_section(profile: dict[str, Any], lang: str) -> list[str]:
                 f"- 已合并 **{len(merged_prs)} 个上游开源 PR**（{', '.join(merged_repo_names)}），"
                 f"另有 **{len(open_prs)} 个 PR** 审核中。"
             )
-        lines.append(
-            f"- 长期深耕开源方向：**{'、'.join(focus_repo_names)}**。"
-        )
         lines.append(
             f"- 共 **{public_count} 个公开自研仓库**，代表项目：{'、'.join(featured_names)}。"
         )

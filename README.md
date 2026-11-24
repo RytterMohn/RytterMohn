@@ -9,7 +9,6 @@
 AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security, and Android Reverse Engineering
 
 - **3 merged upstream PRs** (Elasticsearch, Apache OpenNLP) and **11 active PRs** under review.
-- Long-term open-source focus: **Coraza WAF, NVIDIA Garak, Microsoft PyRIT**.
 - **15 public repositories**, led by EnvScope, UsbDetectionBypass, EasyHook, APKAgents, Native-Code-Malware-Detection.
 
 ### Projects
@@ -127,7 +126,6 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防护与 Android 逆向分析
 
 - 已合并 **3 个上游开源 PR**（Elasticsearch, Apache OpenNLP），另有 **11 个 PR** 审核中。
-- 长期深耕开源方向：**Coraza WAF、NVIDIA Garak、Microsoft PyRIT**。
 - 共 **15 个公开自研仓库**，代表项目：EnvScope、UsbDetectionBypass、EasyHook、APKAgents、Native-Code-Malware-Detection。
 
 ### 自研项目
