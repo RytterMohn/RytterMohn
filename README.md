@@ -8,7 +8,7 @@
 
 AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security, and Android Reverse Engineering
 
-- **3 merged upstream PRs** (Elasticsearch, Apache OpenNLP) and **11 active PRs** under review.
+- **4 merged upstream PRs** (Elasticsearch, Apache OpenNLP, NVIDIA ccluster) and **11 active PRs** under review.
 - **15 public repositories**, led by EnvScope, UsbDetectionBypass, EasyHook, APKAgents, Native-Code-Malware-Detection.
 
 ### Projects
@@ -26,13 +26,13 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
     <tr>
       <td align="center">Android&nbsp;Security</td>
       <td><a href="https://github.com/RytterMohn/EnvScope">EnvScope</a></td>
-      <td align="center">44★</td>
+      <td align="center">45★</td>
       <td>Android runtime self-check APK with Kotlin + Native C++ cross-checks for Frida, Xposed/LSPosed, Riru, Zygisk/Magisk, and hook artifacts</td>
     </tr>
     <tr>
       <td align="center">Android&nbsp;Security</td>
       <td><a href="https://github.com/RytterMohn/UsbDetectionBypass">UsbDetectionBypass</a></td>
-      <td align="center">43★</td>
+      <td align="center">44★</td>
       <td>LSPosed/Xposed module that masks USB connection and USB debugging detection signals inside Android applications</td>
     </tr>
     <tr>
@@ -80,9 +80,10 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 | Project | PR | Summary |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
+| [Elasticsearch (78.8k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | Backport to 2.x: replace category constants with CR and LF in tokenizers |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled |
+| [NVIDIA ccluster (12★)](https://github.com/NVIDIA/ccluster) | [#304](https://github.com/NVIDIA/ccluster/pull/304) | Report a clear error when inspecting a control plane without the ccluster API |
 
 <details open>
 <summary><strong>Active / Under Review PRs (11)</strong></summary>
@@ -93,8 +94,9 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 | :---: | :---: | :---: | :--- |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `Open` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `Open` | Expand `WebSocketGenerator` placeholders in a single pass and support `$KEY` expansion in headers |
-| [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `Open` | FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer |
-| [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `Open` | Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text |
+| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4621](https://github.com/microsoft/PyRIT/pull/4621) | `Open` | FIX: use single-brace objective placeholder in crisis_management.yaml |
+| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `Open` | FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer |
+| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `Open` | Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text |
 
 #### Web Security & WAF
 
@@ -106,12 +108,6 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 | [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1870](https://github.com/corazawaf/coraza/pull/1870) | `Open` | Treat `host:port` syslog audit log targets as TCP instead of misparsing the hostname as a URL scheme |
 | [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1868](https://github.com/corazawaf/coraza/pull/1868) | `Open` | Isolate mutable rule state when adding the same rule across multiple RuleGroups |
 | [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1867](https://github.com/corazawaf/coraza/pull/1867) | `Open` | Emit a warning when a SecRule omits an explicit phase in SecLang |
-
-#### Search, NLP & Infrastructure
-
-| Project | PR | Status | Summary |
-| :---: | :---: | :---: | :--- |
-| [NVIDIA ccluster (12★)](https://github.com/NVIDIA/ccluster) | [#304](https://github.com/NVIDIA/ccluster/pull/304) | `Open` | Report a clear error when inspecting a control plane without the ccluster API |
 
 </details>
 
@@ -125,7 +121,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防护与 Android 逆向分析
 
-- 已合并 **3 个上游开源 PR**（Elasticsearch, Apache OpenNLP），另有 **11 个 PR** 审核中。
+- 已合并 **4 个上游开源 PR**（Elasticsearch, Apache OpenNLP, NVIDIA ccluster），另有 **11 个 PR** 审核中。
 - 共 **15 个公开自研仓库**，代表项目：EnvScope、UsbDetectionBypass、EasyHook、APKAgents、Native-Code-Malware-Detection。
 
 ### 自研项目
@@ -143,13 +139,13 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
     <tr>
       <td align="center">Android&nbsp;安全</td>
       <td><a href="https://github.com/RytterMohn/EnvScope">EnvScope</a></td>
-      <td align="center">44★</td>
+      <td align="center">45★</td>
       <td>Android 运行环境自检 APK，结合 Kotlin 与 Native C++ 交叉检测 Frida、Xposed/LSPosed、Riru、Zygisk/Magisk 等动态注入痕迹</td>
     </tr>
     <tr>
       <td align="center">Android&nbsp;安全</td>
       <td><a href="https://github.com/RytterMohn/UsbDetectionBypass">UsbDetectionBypass</a></td>
-      <td align="center">43★</td>
+      <td align="center">44★</td>
       <td>用于隐藏 Android 应用内 USB 连接与 USB 调试检测信号的 LSPosed/Xposed 模块</td>
     </tr>
     <tr>
@@ -197,9 +193,10 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
+| [Elasticsearch (78.8k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | 向 2.x 分支回移：在分词器中用 CR/LF 替换分类常量 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | 在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定 |
+| [NVIDIA ccluster (12★)](https://github.com/NVIDIA/ccluster) | [#304](https://github.com/NVIDIA/ccluster/pull/304) | 修复检查未启用 ccluster API 的控制平面时的错误上报处理 |
 
 <details open>
 <summary><strong>审核中 / 进行中的 PR（11 个）</strong></summary>
@@ -210,8 +207,9 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 | :---: | :---: | :---: | :--- |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `审核中` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `审核中` | 将 `WebSocketGenerator` 占位符改为单次扫描替换以防凭证泄漏，并支持连接头 `$KEY` 展开 |
-| [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `审核中` | FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer |
-| [Microsoft PyRIT (5.0k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `审核中` | 修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷 |
+| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4621](https://github.com/microsoft/PyRIT/pull/4621) | `审核中` | FIX: use single-brace objective placeholder in crisis_management.yaml |
+| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `审核中` | FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer |
+| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `审核中` | 修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷 |
 
 #### Web 安全与 WAF 防护
 
@@ -224,12 +222,6 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 | [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1868](https://github.com/corazawaf/coraza/pull/1868) | `审核中` | 修复同一规则添加到多个 RuleGroup 时共享可变状态引发的隔离问题 |
 | [Coraza WAF (4.1k★)](https://github.com/corazawaf/coraza) | [#1867](https://github.com/corazawaf/coraza/pull/1867) | `审核中` | 在 SecLang 解析省略 phase 的规则时输出告警提示 |
 
-#### 搜索、NLP 与基础设施
-
-| 项目 | PR | 状态 | 修复内容 |
-| :---: | :---: | :---: | :--- |
-| [NVIDIA ccluster (12★)](https://github.com/NVIDIA/ccluster) | [#304](https://github.com/NVIDIA/ccluster/pull/304) | `审核中` | 修复检查未启用 ccluster API 的控制平面时的错误上报处理 |
-
 </details>
 
 ### 联系方式 / Contact
@@ -238,4 +230,4 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 - Email: `ryttermohn@gmail.com`
 - Blog: [https://www.xuanworld.top](https://www.xuanworld.top)
 
-<sub>Last synced automatically via GitHub Actions: `2026-11-24T15:28:05Z`</sub>
+<sub>Last synced automatically via GitHub Actions: `2026-11-25T08:46:52Z`</sub>

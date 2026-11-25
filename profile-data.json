@@ -241,7 +241,7 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-24T15:28:05Z",
+    "updated_at": "2026-11-25T08:46:52Z",
     "user_repos": {
       "chaoxingDownload": {
         "stars": 64,
@@ -250,13 +250,13 @@
         "url": "https://github.com/RytterMohn/chaoxingDownload"
       },
       "EnvScope": {
-        "stars": 44,
+        "stars": 45,
         "language": "Kotlin",
         "description": "EnvScope 是一个用于 Android 运行环境自检的 APK，重点探测 Frida、Xposed、LSPosed、EdXposed、Substrate、Riru、Zygisk/Magisk 等动态插桩、Hook 或模块化注入痕迹。  项目同时实现 Kotlin 层与 Native C++ 层检测。Kotlin 层负责包名、类加载、调用栈、环境变量、系统属性、端口、进程、挂载表等检查；Native 层负责已加载 so、导出符号、`/proc`、线程名、socket 和 `TracerPid` 的交叉检查。",
         "url": "https://github.com/RytterMohn/EnvScope"
       },
       "UsbDetectionBypass": {
-        "stars": 43,
+        "stars": 44,
         "language": "Kotlin",
         "description": "隐藏 Android 应用内 USB 连接与 USB 调试检测信号的 LSPosed/Xposed 模块。",
         "url": "https://github.com/RytterMohn/UsbDetectionBypass"
@@ -347,7 +347,7 @@
         "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
       },
       "NVIDIA/garak": {
-        "stars": 10162,
+        "stars": 10174,
         "url": "https://github.com/NVIDIA/garak",
         "description": "the LLM vulnerability scanner"
       },
@@ -357,17 +357,17 @@
         "description": "Apache OpenNLP"
       },
       "corazawaf/coraza": {
-        "stars": 4052,
+        "stars": 4055,
         "url": "https://github.com/corazawaf/coraza",
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78718,
+        "stars": 78781,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5048,
+        "stars": 5065,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
@@ -402,6 +402,16 @@
         "merged_at": "2026-11-20T18:41:03Z",
         "created_at": "2026-11-18T04:30:53Z",
         "updated_at": "2026-11-20T18:41:09Z"
+      },
+      {
+        "repo": "NVIDIA/ccluster",
+        "number": 304,
+        "title": "fix(cli): report a control plane without the ccluster API",
+        "url": "https://github.com/NVIDIA/ccluster/pull/304",
+        "state": "closed",
+        "merged_at": "2026-11-24T22:29:16Z",
+        "created_at": "2026-11-17T16:38:26Z",
+        "updated_at": "2026-11-24T22:29:16Z"
       }
     ],
     "open_prs": [
@@ -424,6 +434,16 @@
         "merged_at": null,
         "created_at": "2026-11-20T07:41:18Z",
         "updated_at": "2026-11-20T07:41:18Z"
+      },
+      {
+        "repo": "microsoft/PyRIT",
+        "number": 4621,
+        "title": "FIX: use single-brace objective placeholder in crisis_management.yaml",
+        "url": "https://github.com/microsoft/PyRIT/pull/4621",
+        "state": "open",
+        "merged_at": null,
+        "created_at": "2026-11-25T07:31:54Z",
+        "updated_at": "2026-11-25T07:37:08Z"
       },
       {
         "repo": "microsoft/PyRIT",
@@ -504,16 +524,6 @@
         "merged_at": null,
         "created_at": "2026-11-18T12:30:19Z",
         "updated_at": "2026-11-18T13:37:14Z"
-      },
-      {
-        "repo": "NVIDIA/ccluster",
-        "number": 304,
-        "title": "fix(cli): report a control plane without the ccluster API",
-        "url": "https://github.com/NVIDIA/ccluster/pull/304",
-        "state": "open",
-        "merged_at": null,
-        "created_at": "2026-11-17T16:38:26Z",
-        "updated_at": "2026-11-24T05:58:05Z"
       }
     ]
   }
