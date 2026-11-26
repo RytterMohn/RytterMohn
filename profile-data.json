@@ -241,7 +241,7 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-25T08:46:52Z",
+    "updated_at": "2026-11-26T08:45:27Z",
     "user_repos": {
       "chaoxingDownload": {
         "stars": 64,
@@ -285,6 +285,12 @@
         "description": "一个非常抽象的小游戏，来自于B站和抖音经常看到的广告，心血来潮把它做了出来。",
         "url": "https://github.com/RytterMohn/FlutterGame"
       },
+      "LifeBuddy": {
+        "stars": 1,
+        "language": "Kotlin",
+        "description": "A bilingual Android AI assistant with app automation, memory, learned skills and MCP tools.",
+        "url": "https://github.com/RytterMohn/LifeBuddy"
+      },
       "Native-Code-Malware-Detection": {
         "stars": 1,
         "language": "Python",
@@ -315,12 +321,6 @@
         "description": "",
         "url": "https://github.com/RytterMohn/img"
       },
-      "LifeBuddy": {
-        "stars": 0,
-        "language": "Kotlin",
-        "description": "A bilingual Android AI assistant with app automation, memory, learned skills and MCP tools.",
-        "url": "https://github.com/RytterMohn/LifeBuddy"
-      },
       "Netdisk4WebSecurity": {
         "stars": 0,
         "language": "CSS",
@@ -338,6 +338,12 @@
         "language": "Python",
         "description": "",
         "url": "https://github.com/RytterMohn/RytterMohn"
+      },
+      "xuanworld-en": {
+        "stars": 0,
+        "language": "Astro",
+        "description": "English engineering blog for en.xuanworld.top (built with Astro)",
+        "url": "https://github.com/RytterMohn/xuanworld-en"
       }
     },
     "upstream_repos": {
@@ -347,7 +353,7 @@
         "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
       },
       "NVIDIA/garak": {
-        "stars": 10174,
+        "stars": 10190,
         "url": "https://github.com/NVIDIA/garak",
         "description": "the LLM vulnerability scanner"
       },
@@ -362,12 +368,12 @@
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78781,
+        "stars": 78834,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5065,
+        "stars": 5101,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
@@ -443,7 +449,7 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-25T07:31:54Z",
-        "updated_at": "2026-11-25T07:37:08Z"
+        "updated_at": "2026-11-26T07:47:36Z"
       },
       {
         "repo": "microsoft/PyRIT",
@@ -453,7 +459,7 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-23T10:54:03Z",
-        "updated_at": "2026-11-23T10:56:39Z"
+        "updated_at": "2026-11-25T13:26:26Z"
       },
       {
         "repo": "microsoft/PyRIT",

@@ -9,7 +9,7 @@
 AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security, and Android Reverse Engineering
 
 - **4 merged upstream PRs** (Elasticsearch, Apache OpenNLP, NVIDIA ccluster) and **11 active PRs** under review.
-- **15 public repositories**, led by EnvScope, UsbDetectionBypass, EasyHook, APKAgents, Native-Code-Malware-Detection.
+- **16 public repositories**, led by EnvScope, UsbDetectionBypass, EasyHook, APKAgents, Native-Code-Malware-Detection.
 
 ### Projects
 
@@ -56,7 +56,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
     <tr>
       <td align="center">AI&nbsp;Agents</td>
       <td><a href="https://github.com/RytterMohn/LifeBuddy">LifeBuddy</a></td>
-      <td align="center">new</td>
+      <td align="center">1★</td>
       <td>Bilingual Android AI assistant with app automation, persistent memory, learned skills, and MCP tool integration</td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防护与 Android 逆向分析
 
 - 已合并 **4 个上游开源 PR**（Elasticsearch, Apache OpenNLP, NVIDIA ccluster），另有 **11 个 PR** 审核中。
-- 共 **15 个公开自研仓库**，代表项目：EnvScope、UsbDetectionBypass、EasyHook、APKAgents、Native-Code-Malware-Detection。
+- 共 **16 个公开自研仓库**，代表项目：EnvScope、UsbDetectionBypass、EasyHook、APKAgents、Native-Code-Malware-Detection。
 
 ### 自研项目
 
@@ -169,7 +169,7 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
     <tr>
       <td align="center">AI&nbsp;Agent</td>
       <td><a href="https://github.com/RytterMohn/LifeBuddy">LifeBuddy</a></td>
-      <td align="center">new</td>
+      <td align="center">1★</td>
       <td>支持应用自动化、长期记忆、技能学习与 MCP 工具调用的双语 Android AI 助手</td>
     </tr>
     <tr>
@@ -230,4 +230,4 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 - Email: `ryttermohn@gmail.com`
 - Blog: [https://www.xuanworld.top](https://www.xuanworld.top)
 
-<sub>Last synced automatically via GitHub Actions: `2026-11-25T08:46:52Z`</sub>
+<sub>Last synced automatically via GitHub Actions: `2026-11-26T08:45:27Z`</sub>
