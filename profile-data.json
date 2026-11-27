@@ -241,7 +241,7 @@
     }
   },
   "snapshot": {
-    "updated_at": "2026-11-26T08:45:27Z",
+    "updated_at": "2026-11-27T08:55:33Z",
     "user_repos": {
       "chaoxingDownload": {
         "stars": 64,
@@ -353,7 +353,7 @@
         "description": "CCluster is an efficiency-focused, Kubernetes-native platform for managing the end-to-end AI lifecycle across distributed, multi-cloud GPU infrastructure"
       },
       "NVIDIA/garak": {
-        "stars": 10190,
+        "stars": 10206,
         "url": "https://github.com/NVIDIA/garak",
         "description": "the LLM vulnerability scanner"
       },
@@ -363,17 +363,17 @@
         "description": "Apache OpenNLP"
       },
       "corazawaf/coraza": {
-        "stars": 4055,
+        "stars": 4060,
         "url": "https://github.com/corazawaf/coraza",
         "description": "OWASP Coraza WAF is a golang modsecurity compatible web application firewall library"
       },
       "elastic/elasticsearch": {
-        "stars": 78834,
+        "stars": 78852,
         "url": "https://github.com/elastic/elasticsearch",
         "description": "Free and Open Source, Distributed, RESTful Search Engine"
       },
       "microsoft/PyRIT": {
-        "stars": 5101,
+        "stars": 5136,
         "url": "https://github.com/microsoft/PyRIT",
         "description": "Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI."
       }
@@ -449,17 +449,17 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-25T07:31:54Z",
-        "updated_at": "2026-11-26T07:47:36Z"
+        "updated_at": "2026-11-27T01:29:11Z"
       },
       {
         "repo": "microsoft/PyRIT",
         "number": 4575,
-        "title": "FIX: use OBJECTIVE_LENIENT for CrescendoAttack default refusal scorer",
+        "title": "FIX: use Crescendo-specific refusal rubric for default refusal scorer",
         "url": "https://github.com/microsoft/PyRIT/pull/4575",
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-23T10:54:03Z",
-        "updated_at": "2026-11-25T13:26:26Z"
+        "updated_at": "2026-11-27T03:57:44Z"
       },
       {
         "repo": "microsoft/PyRIT",
@@ -519,7 +519,7 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-18T15:49:10Z",
-        "updated_at": "2026-11-19T11:37:07Z"
+        "updated_at": "2026-11-27T04:06:51Z"
       },
       {
         "repo": "corazawaf/coraza",
@@ -529,7 +529,7 @@
         "state": "open",
         "merged_at": null,
         "created_at": "2026-11-18T12:30:19Z",
-        "updated_at": "2026-11-18T13:37:14Z"
+        "updated_at": "2026-11-27T03:58:13Z"
       }
     ]
   }
