@@ -80,7 +80,7 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 
 | Project | PR | Summary |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.9k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
+| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | Add mutation coverage tests for field mapping responses |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | Backport to 2.x: replace category constants with CR and LF in tokenizers |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | Use UnicodeWhitespace line breaks in tokenizers when keepNewLines is enabled |
 | [NVIDIA ccluster (12★)](https://github.com/NVIDIA/ccluster) | [#304](https://github.com/NVIDIA/ccluster/pull/304) | Report a clear error when inspecting a control plane without the ccluster API |
@@ -94,9 +94,9 @@ AI Security & Systems Engineer — focusing on LLM Red Teaming, Web/WAF Security
 | :---: | :---: | :---: | :--- |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `Open` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `Open` | Expand `WebSocketGenerator` placeholders in a single pass and support `$KEY` expansion in headers |
-| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4621](https://github.com/microsoft/PyRIT/pull/4621) | `Open` | FIX: use single-brace objective placeholder in crisis_management.yaml |
-| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `Open` | FIX: use Crescendo-specific refusal rubric for default refusal scorer |
-| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `Open` | Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text |
+| [Microsoft PyRIT (5.2k★)](https://github.com/microsoft/PyRIT) | [#4621](https://github.com/microsoft/PyRIT/pull/4621) | `Open` | FIX: use single-brace objective placeholder in crisis_management.yaml |
+| [Microsoft PyRIT (5.2k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `Open` | FIX: use Crescendo-specific refusal rubric for default refusal scorer |
+| [Microsoft PyRIT (5.2k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `Open` | Handle unmatched and nested `<document>` tags in `PromptShieldTarget` parser without dropping prompt text |
 
 #### Web Security & WAF
 
@@ -193,7 +193,7 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :--- |
-| [Elasticsearch (78.9k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
+| [Elasticsearch (78.7k★)](https://github.com/elastic/elasticsearch) | [#166303](https://github.com/elastic/elasticsearch/pull/166303) | 为字段映射响应（field mapping responses）补充变异测试覆盖 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1592](https://github.com/apache/opennlp/pull/1592) | 向 2.x 分支回移：在分词器中用 CR/LF 替换分类常量 |
 | [Apache OpenNLP (1.6k★)](https://github.com/apache/opennlp) | [#1591](https://github.com/apache/opennlp/pull/1591) | 在启用 keepNewLines 时使分词器统一采用 UnicodeWhitespace 换行判定 |
 | [NVIDIA ccluster (12★)](https://github.com/NVIDIA/ccluster) | [#304](https://github.com/NVIDIA/ccluster/pull/304) | 修复检查未启用 ccluster API 的控制平面时的错误上报处理 |
@@ -207,9 +207,9 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 | :---: | :---: | :---: | :--- |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2500](https://github.com/NVIDIA/garak/pull/2500) | `审核中` | fix(analyze): fall back on negative Youden's J and use local RNG in bootstrap_ci |
 | [NVIDIA Garak (10.2k★)](https://github.com/NVIDIA/garak) | [#2485](https://github.com/NVIDIA/garak/pull/2485) | `审核中` | 将 `WebSocketGenerator` 占位符改为单次扫描替换以防凭证泄漏，并支持连接头 `$KEY` 展开 |
-| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4621](https://github.com/microsoft/PyRIT/pull/4621) | `审核中` | FIX: use single-brace objective placeholder in crisis_management.yaml |
-| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `审核中` | FIX: use Crescendo-specific refusal rubric for default refusal scorer |
-| [Microsoft PyRIT (5.1k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `审核中` | 修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷 |
+| [Microsoft PyRIT (5.2k★)](https://github.com/microsoft/PyRIT) | [#4621](https://github.com/microsoft/PyRIT/pull/4621) | `审核中` | FIX: use single-brace objective placeholder in crisis_management.yaml |
+| [Microsoft PyRIT (5.2k★)](https://github.com/microsoft/PyRIT) | [#4575](https://github.com/microsoft/PyRIT/pull/4575) | `审核中` | FIX: use Crescendo-specific refusal rubric for default refusal scorer |
+| [Microsoft PyRIT (5.2k★)](https://github.com/microsoft/PyRIT) | [#4469](https://github.com/microsoft/PyRIT/pull/4469) | `审核中` | 修复 `PromptShieldTarget` 解析未配对/嵌套 `<document>` 标签时错分字段或静默丢弃 prompt 文本的缺陷 |
 
 #### Web 安全与 WAF 防护
 
@@ -230,4 +230,4 @@ AI 安全与系统工程开发者 — 聚焦大模型红队安全、Web/WAF 防�
 - Email: `ryttermohn@gmail.com`
 - Blog: [https://www.xuanworld.top](https://www.xuanworld.top)
 
-<sub>Last synced automatically via GitHub Actions: `2026-11-27T08:55:33Z`</sub>
+<sub>Last synced automatically via GitHub Actions: `2026-11-28T08:16:18Z`</sub>
